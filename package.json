@@ -1,0 +1,26 @@
+{
+  "name": "pugme",
+  "description": "Show me a pug, stat! Command line tool for getting your pug fix. Uses https://pugme.herokuapp.com.",
+  "version": "0.0.0",
+  "main": "index.js",
+  "bin" : "./bin/pugme",
+  "dependencies": {
+    "request": "2.12.0",
+    "open": "0.0.2",
+    "commander": "1.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/timhudson/pugme.git"
+  },
+  "homepage" : "https://github.com/timhudson/pugme",
+  "keywords": [
+    "pug",
+    "pugme"
+  ],
+  "author" : {
+    "name" : "Tim Hudson",
+    "email" : "tim.hudson15@gmail.com"
+  },
+  "license" : "MIT"
+}

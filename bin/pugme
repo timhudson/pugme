@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+var pugme = require('../index.js')
+  , open = require('open')
+  , program = require('commander')
+  , pkg = require('../package.json')
+  , version = pkg.version;
+
+program
+  .version(version);
+
+pugme(function(err, pug) {
+  if (err) throw err;
+  open(pug);
+});
